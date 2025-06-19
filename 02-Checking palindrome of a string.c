@@ -2,7 +2,7 @@
 #include<string.h>
 #define MAX 10000
 
-
+//logic for palindrome 
 int palindrome(int left,int right,char str[]){
     if(left>=right)return 1;
 
@@ -21,11 +21,9 @@ int main(){
 
     int length=strlen(str);
 
+    //logic for output
     if(palindrome(0,length-1,str)){printf("yes\n");}
     else{printf("no\n");}
-
-
-
 
 
 
